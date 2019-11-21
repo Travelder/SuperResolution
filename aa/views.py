@@ -15,7 +15,6 @@ def home(request):
         if form.is_valid():
             process = form.save()
             result = resolve(process.upload.path)
-            import pdb; pdb.set_trace()
             mr = settings.MEDIA_ROOT
             relpath = os.path.relpath(result, mr)
             process.result.name = relpath

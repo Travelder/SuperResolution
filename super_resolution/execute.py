@@ -29,7 +29,6 @@ def resolve(lr_image_path):
     
     plt.axis('off')
     plt.imshow(gan_sr)
-    import pdb; pdb.set_trace()
     fname = '.'.join(lr_image_path.split('.')[:-1])
     image_name =  fname + '_out' + '.png'
     

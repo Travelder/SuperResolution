@@ -19,3 +19,7 @@
 ## Note
 
 Some changes have been made within the original ML repo to accommodate with the new directory structure. Be careful before updating any thing.
+
+## Logo
+
+To change the logo, replace the file "data_dump/logo.png". There should be no issues as long as the file name remains the same.
